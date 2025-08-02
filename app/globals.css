@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add these styles in globals.css or custom CSS file */
+
+
+
+
+/* Optionally, you can also add fallback fonts */
+body {
+  font-family: 'Source Serif Pro', serif, 'Roboto', sans-serif;
+}
+
+.font-acumin {
+  font-family: 'Acumin Pro', sans-serif;
+}
+
+.font-source-serif {
+  font-family: 'Source Serif Pro', serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
